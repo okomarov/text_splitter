@@ -1,11 +1,13 @@
 {
-  "name": "text_splitter",
+  "name": "@okoma/text_splitter",
+  "version": "0.1.0",
   "module": "index.ts",
-  "type": "module",
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "1.0.14",
+    "langchain": "0.0.199"
   },
   "peerDependencies": {
-    "typescript": "5.0.0"
-  }
+    "typescript": "5.3.2"
+  },
+  "type": "module"
 }
